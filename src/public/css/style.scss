@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+.text-flex {
+    display: flex;
+    align-items: center;
+  }
+  
+  .over-text {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 120px;
+    text-overflow: ellipsis;
+  }
+
+.panel-table {
+    table-layout: fixed;
+}
+
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    color: #333;
+    font-size: 1.6rem;
+}
